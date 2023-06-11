@@ -10466,11 +10466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Padmaja\\source\\repos\\CSharpFrameWork\\CSharpFrameWork\\CSharpFrameWork.csproj",
+      "projectUniqueName": "C:\\Users\\Padmaja\\source\\repos\\MSTestFrameWork\\MSTestFramework\\CSharpFrameWork.csproj",
       "projectName": "CSharpFrameWork",
-      "projectPath": "C:\\Users\\Padmaja\\source\\repos\\CSharpFrameWork\\CSharpFrameWork\\CSharpFrameWork.csproj",
+      "projectPath": "C:\\Users\\Padmaja\\source\\repos\\MSTestFrameWork\\MSTestFramework\\CSharpFrameWork.csproj",
       "packagesPath": "C:\\Users\\Padmaja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Padmaja\\source\\repos\\CSharpFrameWork\\CSharpFrameWork\\obj\\",
+      "outputPath": "C:\\Users\\Padmaja\\source\\repos\\MSTestFrameWork\\MSTestFramework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Padmaja\\AppData\\Roaming\\NuGet\\NuGet.Config",

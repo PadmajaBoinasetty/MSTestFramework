@@ -25,6 +25,7 @@ namespace CSharpFrameWork.Tests
         {
             Test = TestCaseAssembly.Extent.CreateTest(TestContext.TestName);
             loginpage.Login("saijyothi123456", "Saijyothi@123");
+            Assert.Fail();
         }
 
     }

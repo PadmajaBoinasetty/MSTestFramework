@@ -10,6 +10,7 @@ namespace CSharpFrameWork
     public class Reports:BaseTest
     {
         public ExtentTest Test;
+        readonly string  reportName = "screenshot for test failed";
         IWebDriver driver;
         public TestContext TestContext { get; set; }
 
@@ -27,7 +28,7 @@ namespace CSharpFrameWork
                     logstatus = Status.Fail;
                     screenShotPath = Capture(driver, fileName);
                     var mediaEntity = CaptureScreenShot(driver, fileName);
-                    Test.Fail("ExtentReport 4 Capture: Test Failed", mediaEntity).AddScreenCaptureFromPath(screenShotPath);
+                    Test.Fail(reportName, mediaEntity).AddScreenCaptureFromPath(screenShotPath);
                     break;
                 case UnitTestOutcome.Passed:
                     logstatus = Status.Pass;
@@ -90,7 +91,6 @@ namespace CSharpFrameWork
             htmlReporter.Config.ReportName = "Test Dashboard";
             htmlReporter.Config.Theme = Theme.Dark;
 
-            Instance.AddSystemInfo("Tester Name", "Padmaja");
             Instance.AttachReporter(htmlReporter);
 
         }
